@@ -1,11 +1,11 @@
 console.log("Citywood Cafe Pro Loaded");
 
-// Smooth scroll (SAFE VERSION)
+// Smooth scroll
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
     const target = this.getAttribute("href");
 
-    // ❌ prevent broken links like "#"
+    // prevent broken links like "#"
     if (!target || target === "#") return;
 
     const section = document.querySelector(target);

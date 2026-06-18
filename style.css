@@ -462,13 +462,13 @@ footer {
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
   display: flex;
-  flex-direction: column; /* IMPORTANT CHANGE */
+  flex-direction: column;
 }
 
-/* IMAGE (NOW BIGGER) */
+/* IMAGE */
 .menu-item img {
   width: 100%;
-  height: 200px; /* increased size */
+  height: 200px;
   object-fit: cover;
 }
 
@@ -481,7 +481,6 @@ footer {
   gap: 5px;
 }
 
-/* NAME (SMALLER + CLEANER) */
 .menu-info h3 {
   font-size: 16px;
   font-weight: 600;
