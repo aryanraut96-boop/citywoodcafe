@@ -571,3 +571,18 @@ html {
   opacity: 1;
   transform: translateY(0);
 }
+/* navigation highlight*/
+.nav-links a.active {
+  color: var(--gold);
+  position: relative;
+}
+
+.nav-links a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background: var(--gold);
+}
